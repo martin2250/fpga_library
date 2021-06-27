@@ -1,0 +1,11 @@
+# File names are either absolute or relative to the parent folder of the vhdl_ls.toml file
+[libraries]
+fpga_library.files = [
+  'src/**/*.vhd',
+  'src/**/**/*.vhd',
+]
+
+vunit_lib.files = [
+  '/usr/lib/python3.9/site-packages/vunit/vhdl/**/*.vhd',
+  '/usr/lib/python3.9/site-packages/vunit/vhdl/*.vhd',
+]
